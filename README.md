@@ -29,24 +29,24 @@ PUT <base_url>/empresa/{cnpj} - Para atualizar os dados salvos no banco de dados
 
 O corpo da requisição de atualização deve conter os campos que serão atualizados. O payload da requisição é:
 
-payload: {
-    razao_social: string (opcional),
-    nome_fantasia: string (opcional),
-    atividade_principal: string (opcional),
-    data_abertura: json_date (opcional)
-    natureza_juridica: string (opcional),
+    payload: {
+        razao_social: string (opcional),
+        nome_fantasia: string (opcional),
+        atividade_principal: string (opcional),
+        data_abertura: json_date (opcional)
+        natureza_juridica: string (opcional),
 
-    endereco: {
-        cep: string (opcional), 
-        logradouro: string (opcional),
-        codigo_ibge: int (opcional)
-        cidade: string (opcional),
-        estado: string (opcional),
-        bairro: string (opcional),
-        numero: string  (opcional),
-        pais: string (opcional),
-        complemento: string
+        endereco: {
+            cep: string (opcional), 
+            logradouro: string (opcional),
+            codigo_ibge: int (opcional)
+            cidade: string (opcional),
+            estado: string (opcional),
+            bairro: string (opcional),
+            numero: string  (opcional),
+            pais: string (opcional),
+            complemento: string
+        }
     }
-}
 
 DELETE <base_url>/empresa/{cnpj} - Para excluir os dados salvos no banco de dados
