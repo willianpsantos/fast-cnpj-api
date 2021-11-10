@@ -23,9 +23,9 @@ php artisan serve
 
 Os endpoints da API são
 
-GET <base_url>/empresa/{cnpj} - Para buscar os dados de uma empresa e salvá-los no banco de dados
+GET <base_url>/api/empresa/{cnpj} - Para buscar os dados de uma empresa e salvá-los no banco de dados
 
-PUT <base_url>/empresa/{cnpj} - Para atualizar os dados salvos no banco de dados
+PUT <base_url>/api/empresa/{cnpj} - Para atualizar os dados salvos no banco de dados
 
 O corpo da requisição de atualização deve conter os campos que serão atualizados. O payload da requisição é:
 
@@ -49,4 +49,4 @@ O corpo da requisição de atualização deve conter os campos que serão atuali
         }
     }
 
-DELETE <base_url>/empresa/{cnpj} - Para excluir os dados salvos no banco de dados
+DELETE <base_url>/api/empresa/{cnpj} - Para excluir os dados salvos no banco de dados
