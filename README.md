@@ -29,7 +29,7 @@ PUT <base_url>/empresa/{cnpj} - Para atualizar os dados salvos no banco de dados
 
 O corpo da requisição de atualização deve conter os campos que serão atualizados. O payload da requisição é:
 
-{
+payload: {
     razao_social: string (opcional),
     nome_fantasia: string (opcional),
     atividade_principal: string (opcional),
